@@ -22,7 +22,7 @@ html {
   --bg-dark: #f1f1f1;
   --primary-color: #31344b;
   --text-color: #777777;
-  --text-color-dark: #b0b3b8;
+  --text-color-dark: #c1c1c1;
   --blue-color: #1877f2;
   --blue-color-2: #e9f5ff;
   --outer-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
@@ -39,7 +39,7 @@ html {
     inset -6px -6px 10px -1px rgba(255, 255, 255, 0.1);
   --icon-fb: #4267b2;
   --icon-insta: #fb3958;
-  --icon-github: white;
+  --icon-github: #c1c1c1;
   --icon-youtube: #ff0000;
   --icon-file-powerpoint: #d35230;
 }
