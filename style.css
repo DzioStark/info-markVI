@@ -18,11 +18,11 @@ html {
   --black-color: black;
   --new-white: rgba(49, 16, 16, 0.5);
   --new-dark: rgba(0, 0, 0, 0.5);
-  --bg-light: #f1f1f1; 
+  --bg-main: #e3edf7; 
   --bg-dark: #303234;
   --primary-color: #31344b;
   --text-color: #777777;
-  --text-color-dark: #333;
+  --text-color-dark: #b0b3b8;
   --blue-color: #1877f2;
   --blue-color-2: #e9f5ff;
   --outer-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
@@ -39,7 +39,7 @@ html {
     inset -6px -6px 10px -1px rgba(255, 255, 255, 0.1);
   --icon-fb: #4267b2;
   --icon-insta: #fb3958;
-  --icon-github: #333;
+  --icon-github: white;
   --icon-youtube: #ff0000;
   --icon-file-powerpoint: #d35230;
 }
@@ -48,7 +48,7 @@ html {
   width: 100%;
   height: 100vh;
   background-attachment: fixed;
-  background: var(--bg-light);
+  background: var(--bg-dark);
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -74,7 +74,7 @@ html {
   justify-content: center;
   background: var(--white-color);
   border-radius: 7px;
-  background: var(--bg-light);
+  background: var(--bg-dark);
   box-shadow: var(--outer-shadow);
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -86,7 +86,7 @@ html {
   content: "";
   position: absolute;
   inset: 4px;
-  background: var(--bg-light);
+  background: var(--bg-dark);
   border-radius: 5px;
 }
 .card::before {
@@ -127,7 +127,7 @@ html {
   height: 100px;
   border-radius: 50%;
   box-shadow: var(--outer-shadow);
-  border: 5px solid var(--bg-light);
+  border: 5px solid var(--bg-dark);
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -251,10 +251,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--bg-light);
+  border: 2px solid var(--bg-dark);
   width: 50px;
   height: 50px;
-  background: var(--bg-light);
+  background: var(--bg-dark);
   box-shadow: var(--outer-shadow);
   border-radius: 50%;
   transition: all 0.3s ease 0s;
@@ -298,8 +298,6 @@ html {
   height: 100%;
   color: var(--blue-color);
   z-index: 1;
-  font-size: 23px;
-  font-weight: bold;
 }
 
 .link__icon .fab {
@@ -316,7 +314,7 @@ html {
 }
 .app.dark .link__icon .fa-file-powerpoint,
 .app.dark .link__icon .fa-github {
-  color: var(--bg-light);
+  color: var(--bg-dark);
   z-index: 1;
 }
 
@@ -372,7 +370,7 @@ html {
   border-radius: 50%;
   color: var(--white-color);
   box-shadow: var(--outer-shadow);
-  border: 2px solid var(--bg-light);
+  border: 2px solid var(--bg-dark);
   cursor: pointer;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -442,10 +440,10 @@ html {
   justify-content: center;
   padding: 10px;
   text-align: center;
-  background: var(--bg-light);
+  background: var(--bg-dark);
   box-shadow: var(--outer-shadow);
   color: var(--text-color-dark);
-  border: 3px solid var(--bg-light);
+  border: 3px solid var(--bg-dark);
   font-size: 1.5rem;
   font-weight: 600;
   border-radius: 7px;
