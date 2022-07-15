@@ -39,7 +39,7 @@ html {
     inset -6px -6px 10px -1px rgba(255, 255, 255, 0.1);
   --icon-fb: #4267b2;
   --icon-insta: #fb3958;
-  --icon-github: #c1c1c1;
+  --icon-github: #333;
   --icon-youtube: #ff0000;
   --icon-file-powerpoint: #d35230;
 }
