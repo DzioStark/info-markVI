@@ -94,7 +94,7 @@ html {
   position: absolute;
   width: 250px;
   height: 130%;
-  background-image: linear-gradient(#0096CC, #BA6982);
+  background-image: linear-gradient(#0096CC, #FFAC30);
   animation: animate 7s linear infinite;
 }
 
