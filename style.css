@@ -298,6 +298,8 @@ html {
   height: 100%;
   color: var(--blue-color);
   z-index: 1;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 .link__icon .fab {
